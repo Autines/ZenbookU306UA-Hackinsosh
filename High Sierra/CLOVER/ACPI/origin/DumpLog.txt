@@ -1,0 +1,150 @@
+22:519  0:114  Found BIOS RSDP at F0070
+22:519  0:000  Printing ACPI tables from RSDP F0070 ...
+22:519  0:000   F0070: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+22:519  0:000    (Xsdt: 7E848098, Rsdt: 7E848028)
+22:519  0:000    7E848098: 'XSDT', 'Notebook', Rev: 1, Len: 180
+22:519  0:000    7E848028: 'RSDT', 'Notebook', Rev: 1, Len: 108
+22:519  0:000    Tables in Xsdt: 18
+22:519  0:000    0. 7E86E660: 'FACP', 'Notebook', Rev: 5, Len: 268
+22:519  0:000        (Dsdt: 7E8481E0, Facs: 7F0ACF80, XDsdt: 7E8481E0, XFacs: 0)
+22:519  0:000        7E8481E0: 'DSDT', 'Notebook', Rev: 2, Len: 156794
+22:522  0:002        7F0ACF80: 'FACS', Ver: 2, Len: 64
+22:522  0:000    1. 7E86E770: 'APIC', 'Notebook', Rev: 3, Len: 132
+22:522  0:000    2. 7E86E7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+22:522  0:000    3. 7E86E840: 'FIDT', 'Notebook', Rev: 1, Len: 156
+22:522  0:000    4. 7E86E8E0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+22:522  0:000    5. 7E86E920: 'HPET', 'Notebook', Rev: 1, Len: 56
+22:522  0:000    6. 7E86E958: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+22:522  0:000    7. 7E86EC70: 'ECDT', 'Notebook', Rev: 1, Len: 193
+22:522  0:000    8. 7E86ED38: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+22:522  0:000    9. 7E86EDD0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+22:522  0:000    10. 7E86F018: 'DBGP', '', Rev: 1, Len: 52
+22:522  0:000    11. 7E86F050: 'DBG2', '', Rev: 0, Len: 84
+22:522  0:000    12. 7E86F0A8: 'SSDT', 'DptfTabl', Rev: 2, Len: 15825
+22:522  0:000    13. 7E872E80: 'SSDT', 'SaSsdt', Rev: 2, Len: 22595
+22:522  0:000    14. 7E8786C8: 'UEFI', '', Rev: 1, Len: 66
+22:522  0:000    15. 7E878710: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+22:522  0:000    16. 7E879588: 'BGRT', 'Notebook', Rev: 1, Len: 56
+22:522  0:000    17. 7DC62F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+22:522  0:000    Tables in Rsdt: 18
+22:522  0:000    0. 7E848158: 'FACP', 'Notebook', Rev: 2, Len: 132
+22:522  0:000        (Dsdt: 7E8481E0, Facs: 7F0ACF40)
+22:522  0:000        7E8481E0: 'DSDT', 'Notebook', Rev: 2, Len: 156794
+22:525  0:002        7F0ACF40: 'FACS', Ver: 0, Len: 64
+22:525  0:000    1. 7E86E770: 'APIC', 'Notebook', Rev: 3, Len: 132
+22:525  0:000    2. 7E86E7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+22:525  0:000    3. 7E86E840: 'FIDT', 'Notebook', Rev: 1, Len: 156
+22:525  0:000    4. 7E86E8E0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+22:525  0:000    5. 7E86E920: 'HPET', 'Notebook', Rev: 1, Len: 56
+22:525  0:000    6. 7E86E958: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+22:525  0:000    7. 7E86EC70: 'ECDT', 'Notebook', Rev: 1, Len: 193
+22:525  0:000    8. 7E86ED38: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+22:525  0:000    9. 7E86EDD0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+22:525  0:000    10. 7E86F018: 'DBGP', '', Rev: 1, Len: 52
+22:525  0:000    11. 7E86F050: 'DBG2', '', Rev: 0, Len: 84
+22:525  0:000    12. 7E86F0A8: 'SSDT', 'DptfTabl', Rev: 2, Len: 15825
+22:525  0:000    13. 7E872E80: 'SSDT', 'SaSsdt', Rev: 2, Len: 22595
+22:525  0:000    14. 7E8786C8: 'UEFI', '', Rev: 1, Len: 66
+22:525  0:000    15. 7E878710: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+22:525  0:000    16. 7E879588: 'BGRT', 'Notebook', Rev: 1, Len: 56
+22:525  0:000    17. 7DC62F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+22:525  0:000  Found UEFI Acpi 2.0 RSDP at 7E848000
+22:525  0:000  Saving ACPI tables from RSDP 7E848000 to EFI\CLOVER\ACPI\origin ...
+22:525  0:000   7E848000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+22:525  0:000    (Xsdt: 7E848098, Rsdt: 7E848028)
+22:525  0:000    7E848098: 'XSDT', 'Notebook', Rev: 1, Len: 180
+22:525  0:000    7E848028: 'RSDT', 'Notebook', Rev: 1, Len: 108
+22:525  0:000    Tables in Xsdt: 18
+22:525  0:000    0. 7E86E660: 'FACP', 'Notebook', Rev: 5, Len: 268
+22:525  0:000        (Dsdt: 7E8481E0, Facs: 7F0ACF80, XDsdt: 7E8481E0, XFacs: 0)
+22:525  0:000        7E8481E0: 'DSDT', 'Notebook', Rev: 2, Len: 156794
+22:528  0:002        7F0ACF80: 'FACS', Ver: 2, Len: 64
+22:528  0:000    1. 7E86E770: 'APIC', 'Notebook', Rev: 3, Len: 132
+22:528  0:000    2. 7E86E7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+22:528  0:000    3. 7E86E840: 'FIDT', 'Notebook', Rev: 1, Len: 156
+22:528  0:000    4. 7E86E8E0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+22:528  0:000    5. 7E86E920: 'HPET', 'Notebook', Rev: 1, Len: 56
+22:528  0:000    6. 7E86E958: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+22:528  0:000    7. 7E86EC70: 'ECDT', 'Notebook', Rev: 1, Len: 193
+22:528  0:000    8. 7E86ED38: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+22:528  0:000    9. 7E86EDD0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+22:528  0:000    10. 7E86F018: 'DBGP', '', Rev: 1, Len: 52
+22:528  0:000    11. 7E86F050: 'DBG2', '', Rev: 0, Len: 84
+22:528  0:000    12. 7E86F0A8: 'SSDT', 'DptfTabl', Rev: 2, Len: 15825
+22:528  0:000    13. 7E872E80: 'SSDT', 'SaSsdt', Rev: 2, Len: 22595
+22:528  0:000    14. 7E8786C8: 'UEFI', '', Rev: 1, Len: 66
+22:528  0:000    15. 7E878710: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+22:528  0:000    16. 7E879588: 'BGRT', 'Notebook', Rev: 1, Len: 56
+22:528  0:000    17. 7DC62F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+22:528  0:000    Tables in Rsdt: 18
+22:528  0:000    0. 7E848158: 'FACP', 'Notebook', Rev: 2, Len: 132
+22:528  0:000        (Dsdt: 7E8481E0, Facs: 7F0ACF40)
+22:528  0:000        7E8481E0: 'DSDT', 'Notebook', Rev: 2, Len: 156794
+22:530  0:002        7F0ACF40: 'FACS', Ver: 0, Len: 64
+22:530  0:000    1. 7E86E770: 'APIC', 'Notebook', Rev: 3, Len: 132
+22:530  0:000    2. 7E86E7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+22:530  0:000    3. 7E86E840: 'FIDT', 'Notebook', Rev: 1, Len: 156
+22:530  0:000    4. 7E86E8E0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+22:530  0:000    5. 7E86E920: 'HPET', 'Notebook', Rev: 1, Len: 56
+22:530  0:000    6. 7E86E958: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+22:530  0:000    7. 7E86EC70: 'ECDT', 'Notebook', Rev: 1, Len: 193
+22:530  0:000    8. 7E86ED38: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+22:530  0:000    9. 7E86EDD0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+22:530  0:000    10. 7E86F018: 'DBGP', '', Rev: 1, Len: 52
+22:530  0:000    11. 7E86F050: 'DBG2', '', Rev: 0, Len: 84
+22:530  0:000    12. 7E86F0A8: 'SSDT', 'DptfTabl', Rev: 2, Len: 15825
+22:530  0:000    13. 7E872E80: 'SSDT', 'SaSsdt', Rev: 2, Len: 22595
+22:530  0:000    14. 7E8786C8: 'UEFI', '', Rev: 1, Len: 66
+22:530  0:000    15. 7E878710: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+22:530  0:000    16. 7E879588: 'BGRT', 'Notebook', Rev: 1, Len: 56
+22:530  0:000    17. 7DC62F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+22:530  0:000  Found UEFI Acpi 1.0 RSDP at 7E848000
+22:530  0:000  Printing ACPI tables from RSDP 7E848000 ...
+22:530  0:000   7E848000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+22:530  0:000    (Xsdt: 7E848098, Rsdt: 7E848028)
+22:530  0:000    7E848098: 'XSDT', 'Notebook', Rev: 1, Len: 180
+22:530  0:000    7E848028: 'RSDT', 'Notebook', Rev: 1, Len: 108
+22:530  0:000    Tables in Xsdt: 18
+22:530  0:000    0. 7E86E660: 'FACP', 'Notebook', Rev: 5, Len: 268
+22:530  0:000        (Dsdt: 7E8481E0, Facs: 7F0ACF80, XDsdt: 7E8481E0, XFacs: 0)
+22:530  0:000        7E8481E0: 'DSDT', 'Notebook', Rev: 2, Len: 156794
+22:533  0:002        7F0ACF80: 'FACS', Ver: 2, Len: 64
+22:533  0:000    1. 7E86E770: 'APIC', 'Notebook', Rev: 3, Len: 132
+22:533  0:000    2. 7E86E7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+22:533  0:000    3. 7E86E840: 'FIDT', 'Notebook', Rev: 1, Len: 156
+22:533  0:000    4. 7E86E8E0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+22:533  0:000    5. 7E86E920: 'HPET', 'Notebook', Rev: 1, Len: 56
+22:533  0:000    6. 7E86E958: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+22:533  0:000    7. 7E86EC70: 'ECDT', 'Notebook', Rev: 1, Len: 193
+22:533  0:000    8. 7E86ED38: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+22:533  0:000    9. 7E86EDD0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+22:533  0:000    10. 7E86F018: 'DBGP', '', Rev: 1, Len: 52
+22:533  0:000    11. 7E86F050: 'DBG2', '', Rev: 0, Len: 84
+22:533  0:000    12. 7E86F0A8: 'SSDT', 'DptfTabl', Rev: 2, Len: 15825
+22:533  0:000    13. 7E872E80: 'SSDT', 'SaSsdt', Rev: 2, Len: 22595
+22:533  0:000    14. 7E8786C8: 'UEFI', '', Rev: 1, Len: 66
+22:533  0:000    15. 7E878710: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+22:533  0:000    16. 7E879588: 'BGRT', 'Notebook', Rev: 1, Len: 56
+22:533  0:000    17. 7DC62F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+22:533  0:000    Tables in Rsdt: 18
+22:533  0:000    0. 7E848158: 'FACP', 'Notebook', Rev: 2, Len: 132
+22:533  0:000        (Dsdt: 7E8481E0, Facs: 7F0ACF40)
+22:533  0:000        7E8481E0: 'DSDT', 'Notebook', Rev: 2, Len: 156794
+22:536  0:002        7F0ACF40: 'FACS', Ver: 0, Len: 64
+22:536  0:000    1. 7E86E770: 'APIC', 'Notebook', Rev: 3, Len: 132
+22:536  0:000    2. 7E86E7F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+22:536  0:000    3. 7E86E840: 'FIDT', 'Notebook', Rev: 1, Len: 156
+22:536  0:000    4. 7E86E8E0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+22:536  0:000    5. 7E86E920: 'HPET', 'Notebook', Rev: 1, Len: 56
+22:536  0:000    6. 7E86E958: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+22:536  0:000    7. 7E86EC70: 'ECDT', 'Notebook', Rev: 1, Len: 193
+22:536  0:000    8. 7E86ED38: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+22:536  0:000    9. 7E86EDD0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+22:536  0:000    10. 7E86F018: 'DBGP', '', Rev: 1, Len: 52
+22:536  0:000    11. 7E86F050: 'DBG2', '', Rev: 0, Len: 84
+22:536  0:000    12. 7E86F0A8: 'SSDT', 'DptfTabl', Rev: 2, Len: 15825
+22:536  0:000    13. 7E872E80: 'SSDT', 'SaSsdt', Rev: 2, Len: 22595
+22:536  0:000    14. 7E8786C8: 'UEFI', '', Rev: 1, Len: 66
+22:536  0:000    15. 7E878710: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+22:536  0:000    16. 7E879588: 'BGRT', 'Notebook', Rev: 1, Len: 56
+22:536  0:000    17. 7DC62F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
