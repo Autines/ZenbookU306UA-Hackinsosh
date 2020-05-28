@@ -6,6 +6,7 @@ Resources for Asus Zenbook U306UA Hackintosh Running on macOS High Sierra 10.13.
 What's working
 
 Almost everything
+（include IntelWiFi）
 
 What's not working
 Card reader
@@ -13,20 +14,23 @@ Card reader
 
 SSDTs
 
+SSDT-ATK-BDW: FN keys
+SSDT-BATT: Battery
+SSDT-CX207512: Audio 
+SSDT-ETPD: Touchpad ELAN1200
+SSDT-GPI0: Touchpad
+SSDT-RALS: ALS
 SSDT-RMNE: NullEthernet
-SSDT-UIAC: USB injection
 SSDT-PNLF: Intel backlight
 
 Drivers64UEFI
 
 ApfsDriverLoader-64
-AptioMemoryFix-64
-DataHubDxe-64
 FirmwareVolume-64
 FSInject-64
+HFSPlus-64
+NTFS-64
 OsxFatBinaryDrv-64
-PartitionDxe-64
-VBoxHfs-64
 
 Kexts
 
